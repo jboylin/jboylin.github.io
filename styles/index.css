@@ -1,4 +1,6 @@
 body {
+    color: #837d7d;
+    background-color: #000000;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -6,6 +8,7 @@ body {
 }
 
 .title {
+color: #837d7d;
   font-size: 46pt;
   display: flex;
   flex-direction: column;
@@ -14,5 +17,8 @@ body {
   font-weight: 100;
 }
 a:hover {
-  color: blue;
+  color:#cccccc;
+}
+a {
+    color: #837d7d;
 }
