@@ -1,14 +1,18 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align-last: center;
 }
 
 .title {
-    font-size: 46pt;
+  font-size: 46pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
 }
-a {
-    font-size: 22pt;
+a:hover {
+  color: blue;
 }
