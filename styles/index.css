@@ -7,7 +7,7 @@
 
 
 :root {
-  --ff-primary: 'Source Sans Pro', monospace;
+  --ff-primary: 'Source Sans Pro', sans-serif;
   --ff-secondary: 'Source Code Pro', monospace;
 
   --fw-reg: 300;
@@ -36,8 +36,8 @@
 /* General styles */
 
 body {
-  background: var(--clr-dark);
-  color: var(--clr-light);
+  background: var(--clr-light);
+  color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
