@@ -65,8 +65,8 @@ strong {
 }
 
 :focus {
-  outline: 3px solid var(--clr-accent);
-  outline-offset: 3px;
+  outline: 2px solid var(--clr-accent);
+  outline-offset: 4px;
 }
 
 .btn {
@@ -220,7 +220,7 @@ header {
 .hamburger {
   display: block;
   position: relative;
-  top: 50px;
+  top: 1px;
 }
 
 .hamburger,
@@ -472,4 +472,75 @@ header {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.portfolio-item-individual h3 {
+  padding-top: 1em;
+}
+
+.tech-list__link:hover {
+  opacity: .7;
+}
+
+.tech-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em 2em 0;
+  padding: 0;
+  border-bottom: 2px solid var(--clr-accent);
+  width: 90%;
+}
+
+.tech-list__item {
+  margin: 0.5em;
+}
+
+.tech-list__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.screenshots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.screenshots__img {
+  max-width: 95%;
+  margin: 1em 1em;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container:hover .overlay {
+  height: 15%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 1em 1em;
+  background-color: var(--clr-accent);
+  overflow: hidden;
+  width: 95%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
