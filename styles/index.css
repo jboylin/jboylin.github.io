@@ -496,6 +496,8 @@ header {
   .tech-list {
     display:list-item;
     list-style-type: none;
+    border-bottom: none;
+    border-left: 2px solid var(--clr-accent);
   }
 }
 
