@@ -483,13 +483,20 @@ header {
 }
 
 .tech-list {
-  list-style-type: none;
   display: flex;
+  list-style-type: none;
   justify-content: space-evenly;
   margin: 2em 2em 0;
   padding: 0;
   border-bottom: 2px solid var(--clr-accent);
   width: 90%;
+}
+
+@media (max-width: 600px) {
+  .tech-list {
+    display:list-item;
+    list-style-type: none;
+  }
 }
 
 .tech-list__item {
